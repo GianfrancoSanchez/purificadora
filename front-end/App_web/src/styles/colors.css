@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #073194;
+  --secondary-color: #94a0ba;
+  --text-color: #370e12;
+  --accent-color: #2d2f64;
+  --background-color: #f2f6f9;
+}
+
+/* Global styles */
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-color) !important;
+  border-color: var(--accent-color) !important;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.bg-light {
+  background-color: var(--background-color) !important;
+}
+
+.form-control {
+  border-color: var(--secondary-color);
+}
+
+.form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.25rem rgba(7, 49, 148, 0.25);
+}
+
+/* Text colors */
+h1, h2, h3, h4, h5, h6, p {
+  color: var(--text-color);
+}
